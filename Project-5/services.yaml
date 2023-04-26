@@ -65,18 +65,3 @@ spec:
       nodePort: 30000
   type: LoadBalancer
   
-  
-#apiVersion: v1
-#kind: Service
-#metadata:
-  #name: flask-app-service
-#spec:
-  #selector:
-    #app: flask-app
-  #type: LoadBalancer
-  #ports:
-    #- name: http
-      #port: 5001
-      #targetPort: 5001
-      #protocol: TCP
-      #nodePort: 30001
